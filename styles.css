@@ -1,0 +1,115 @@
+/* control the whole body */
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg); /* set a background image */
+    font-family: sans-serif; /* set a default font */
+    padding: 20px; /* set the menu border's offset, can do only one side, e.g. padding-top */
+}
+
+/* control the <h1>'s text */
+h1 {
+    font-size: 40px; /* font size */
+    margin-top: 0; /* basically the empty space around the text block */
+    margin-bottom: 15px;
+}
+
+/* control the <h2>'s text */
+h2 {
+    font-size: 30px;
+}
+
+/* control the "est. 2020, class can be used to control a specific element instead of the general/default settings */
+.established {
+    font-style: italic;
+}
+
+/* control the text alignment of <h1>, <h2> and <p> in default */
+h1, h2, p {
+    text-align: center;
+}
+
+/* control the whole menu box */
+.menu {
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px; /* check padding vs margin */
+    max-width: 500px;
+}
+
+/* control the coffee and desserts icon */
+img {
+    display: block; /* make the icons a block so that they can be offset */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+}
+ 
+/* control the size and color of dividing lines */
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+ 
+/* control the spacing of the second divind line */
+.bottom-line {
+    margin-top: 25px;
+}
+
+/* control the font of <h1> and <h2> */
+h1, h2 {
+    font-family: Impact, serif;
+}
+
+/* control <p>  in default */
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+/* control the alignment and spacing of item's names */
+.flavor, .dessert {
+    text-align: left;
+    width: 75%;
+}
+
+/* control the alignment and spacing of price's names */
+.price {
+    text-align: right;
+    width: 25%;
+}
+  
+/* FOOTER */
+/* control the footer's font size */  
+footer {
+    font-size: 14px;
+}
+ 
+/* control the spacing of address */
+.address {
+    margin-bottom: 5px;
+}
+
+/* control the behaviors and colors of the hyperlink */
+/* default */
+a {
+    color: black;
+}
+ 
+/* after clicked */
+a:visited {
+    color: black;
+}
+
+/* when being hovered */
+a:hover {
+    color: brown;
+}
+
+/* when being clicked */
+a:active {
+    color: brown;
+}

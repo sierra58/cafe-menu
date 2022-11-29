@@ -1,0 +1,72 @@
+<!DOCTYPE html> <!-- must have at the beginning -->
+
+<html lang="en"> <!-- <html> with the website language specified -->
+  <head>
+    <meta charset="utf-8" /> <!-- supported character code of the website-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- screen scaling for mobile device-->
+    <link href="2_CafeMenu.css" rel="stylesheet"/> <!-- link the html file (for content) to the corresponding css file (for styling) -->
+    <title>Cafe Menu</title> <!-- title of the window tab -->
+  </head>
+
+  <body>
+    <div class="menu"> <!-- <div> is for design purpose, to group elements which will share the same styling (so that you can add a class to it) -->
+      <main>
+        <h1>CAMPER CAFE</h1> <!-- main header (cafe's name)-->
+        <p class="established">Est. 2020</p> <!-- the founding year -->
+        
+        <hr> <!-- add a dividing line in between -->
+
+        <!-- section 1: coffee -->
+        <section> <!-- for section grouping -->
+          <h2>Coffee</h2>
+          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon"/> <!-- insert a coffee icon, "src" links to the img, "alt" gives desc. -->
+
+          <article class="item"> <!-- <article> is a container, also with a class controlling the styling -->
+            <p class="flavor">French Vanilla</p><p class="price">3.00</p> <!-- a paragraph of menu items including name and price, with classes controlling the styling -->
+          </article>
+          <article class="item">
+            <p class="flavor">Caramel Macchiato</p><p class="price">3.75</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Pumpkin Spice</p><p class="price">3.50</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Hazelnut</p><p class="price">4.00</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Mocha</p><p class="price">4.50</p>
+          </article>
+        </section>
+
+        <!-- section 2: desserts -->
+        <section>
+          <h2>Desserts</h2>
+          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon"/>
+
+          <article class="item">
+            <p class="dessert">Donut</p><p class="price">1.50</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cherry Pie</p><p class="price">2.75</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cheesecake</p><p class="price">3.00</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cinnamon Roll</p><p class="price">2.50</p>
+          </article>
+        </section>
+      </main>
+
+      <hr class="bottom-line"> <!-- another dividing line but with special styling -->
+
+      <!-- footer -->
+      <footer>
+        <p>
+          <a href="https://www.freecodecamp.org" target="_blank">Visit our website</a> <!-- hyperlink attached to a text, "href" is the link, "target="_blank"" opens new tab -->
+        </p>
+        <p class="address">123 Free Code Camp Drive</p> <!-- address text with a class controlling the styling -->
+      </footer>
+    </div>
+  </body>
+</html>
