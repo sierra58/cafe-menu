@@ -1,2 +1,7 @@
 # cafe-menu
-Cafe Menu | A tutorial by freeCodeCamp | [html, css, front-end web development, tutorial]
+
+## Cafe Menu
+- Tutorial by freeCodeCamp
+
+## Tags
+html, css, front-end web development, tutorial
